@@ -27,13 +27,13 @@ slides are available [on slideshare](http://www.slideshare.net/hungryblank/distr
 * rabbitMQ server version 1.6.0 or later
 
 ## Howto
-  After installing the software listed in the requirements (and running
+  After installing the software listed in the requirements, run
 
 ```bash
 bundle install
 ```
 
-  open a console on your system, and from the top directory of this repository execute
+  Open a console on your system, and from the top directory of this repository execute
 
 ```bash
 ruby producer.rb
@@ -46,10 +46,10 @@ ruby producer.rb
   repository execute
 
 ```bash
-     ruby heartbeat_monitor.rb
+ruby heartbeat_monitor.rb
 ```
 
-  This script will start printing out the number of messages in the queue
+  This script will start printing out the number of messages in the queue.
 
   At this point you can open another console and start any of the consumers
   contained in the numbered directories. As an example try executing
