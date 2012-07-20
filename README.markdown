@@ -25,7 +25,7 @@ slides are available [on slideshare](http://www.slideshare.net/hungryblank/distr
 ## Requirements
   You need to have 
 
-* tmm1-amqp gem version 0.6.4 or later
+* amqp gem version 0.6.4 or later
 
 * rabbitMQ server version 1.6.0 or later
 

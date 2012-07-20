@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'mq'
+require 'amqp'
 require 'uuid'
  
 Signal.trap('INT') { AMQP.stop{ EM.stop } }
